@@ -48,19 +48,19 @@ const Navbar = () => {
               <div className='flex flex-row lg:flex-1 justify-center items-center'>
                 <div className='hidden lg:flex'>
                   <div className='flex flex-auto sm:flex-1 px-4 border-r'>
-                    <a href='#hero' className='text-white hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full'>Home</a>
+                    <a href='#hero' className='text-white font-ysabeau font-semibold tracking-wider hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full'>Home</a>
                   </div>
                   <div className='flex flex-auto sm:flex-1 px-4 border-r'>
-                    <a href='#hero' className='text-white hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full'>About</a>
+                    <a href='#hero' className='text-white font-ysabeau font-semibold hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full tracking-wider'>About</a>
                   </div>
                   <div className='flex flex-auto sm:flex-1 px-4 border-r'>
-                    <a href='#hero' className='text-white hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full'>Projects</a>
+                    <a href='#hero' className='text-white font-ysabeau font-semibold hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full tracking-wider'>Projects</a>
                   </div>
                   <div className='flex flex-auto sm:flex-1 px-4 border-r'>
-                    <a href='#hero' className='text-white hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full'>Shop</a>
+                    <a href='#hero' className='text-white font-ysabeau font-semibold hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full tracking-wider'>Shop</a>
                   </div>
                   <div className='flex flex-auto sm:flex-1 px-4'>
-                    <a href='#hero' className='text-white hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full'>Contact</a>
+                    <a href='#hero' className='text-white font-ysabeau font-semibold hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full tracking-wider'>Contact</a>
                   </div>
                 </div>
                 <button className='flex invisible lg:visible w-9 h-9 bg-nav-bg hover:bg-neon-yellow hover:shadow-md hover:shadow-neon-green rounded-full justify-center items-center'>
