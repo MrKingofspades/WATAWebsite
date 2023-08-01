@@ -9,6 +9,11 @@ export default {
       flex: {
         '2': '2 2 0%'
       },
+      
+      screens: {
+        'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
+        'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)' },
+      },
 
       inset: {
         'cart': '6rem',
