@@ -35,7 +35,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className='absolute left-[40%] lg:left-[42%] xl:left-[58%] min-[1980px]:left-[68%]'>
+          <div className='absolute left-[40%] lg:left-[42%] xl:left-[58%] min-[1920px]:left-[68%]'>
             <ul className='flex invisible lg:visible'>
               <li className='border-r px-4 list-none'>
                 <a href='#home' className='text-white font-ysabeau text-md p-2 hover:text-neon-purple hover:bg-[#7d7974]/30'>Home</a>
