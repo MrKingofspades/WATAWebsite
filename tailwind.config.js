@@ -9,7 +9,7 @@ export default {
       flex: {
         '2': '2 2 0%'
       },
-      
+
       screens: {
         'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
         'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)' },
@@ -34,6 +34,20 @@ export default {
         'space-mono': ['"Space Mono"', 'monospace'],
         'lacquer': ['"Lacquer"', 'sans-serif'],
         'ysabeau': ['"Ysabeau SC"', 'monospace'],
+      },
+      keyframes: {
+        'open-menu': {
+          '0%': { transform: 'scaleX(0)' },
+          '100%': { transform: 'scaleX(1)' },
+        },
+        'close-menu': {
+          '0%': { transform: 'scaleX(1)' },
+          '100': { transform: 'scaleX(0)' },
+        },
+      },
+      animation: {
+        'open-menu': 'open-menu 0.5s ease-in-out forwards',
+        'close-menu': 'close-menu 0.5s ease-in-out forwards',
       },
     },
   },
