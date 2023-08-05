@@ -35,24 +35,24 @@ const Navbar = () => {
             )}
           </button>
             {openDropDown && (
-              <div className='dropdown-menu origin-top animate-open-menu lg:hidden absolute -right-4 top-12 w-[300px] bg-nav-bg/40 rounded-md'>
-                <div className='flex flex-auto sm:flex-1 px-4 py-4'>
-                  <a href='#hero' className='text-white font-ysabeau font-semibold tracking-wider hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full'>Home</a>
+              <div className='dropdown-menu origin-top animate-open-menu lg:hidden absolute -right-4 top-12 w-[100vw] h-[100vh] bg-nav-bg/60 rounded-lg'>
+                <div className='flex flex-auto sm:flex-1 p-8'>
+                  <a href='#hero' className='text-white text-xl font-ysabeau font-semibold tracking-wider hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full'>Home</a>
                 </div>
-                <div className='flex flex-auto sm:flex-1 px-4 py-4'>
-                  <a href='#hero' className='text-white font-ysabeau font-semibold hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full tracking-wider'>About</a>
+                <div className='flex flex-auto sm:flex-1 p-8'>
+                  <a href='#hero' className='text-white text-xl font-ysabeau font-semibold hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full tracking-wider'>About</a>
                 </div>
-                <div className='flex flex-auto sm:flex-1 px-4 py-4'>
-                  <a href='#hero' className='text-white font-ysabeau font-semibold hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full tracking-wider'>Projects</a>
+                <div className='flex flex-auto sm:flex-1 p-8'>
+                  <a href='#hero' className='text-white text-xl font-ysabeau font-semibold hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full tracking-wider'>Projects</a>
                 </div>
-                <div className='flex flex-auto sm:flex-1 px-4 py-4'>
-                  <a href='#hero' className='text-white font-ysabeau font-semibold hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full tracking-wider'>Shop</a>
+                <div className='flex flex-auto sm:flex-1 p-8'>
+                  <a href='#hero' className='text-white text-xl font-ysabeau font-semibold hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full tracking-wider'>Shop</a>
                 </div>
-                <div className='flex flex-auto sm:flex-1 px-4 py-4'>
-                  <a href='#hero' className='text-white font-ysabeau font-semibold hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full tracking-wider'>Contact</a>
+                <div className='flex flex-auto sm:flex-1 p-8'>
+                  <a href='#hero' className='text-white text-xl font-ysabeau font-semibold hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full tracking-wider'>Contact</a>
                 </div>
               <div>
-                <ul className='md:hidden flex justify-evenly'>
+                <ul className='md:hidden flex justify-evenly p-8'>
                   <li className='py-3 px-1'>
                     <a href="https://www.instagram.com/entangledcerebrum/" target='_' className='text-neon-blue text-3xl hover:text-[#a7fdfd]'>{insta}</a>
                   </li>
@@ -66,6 +66,12 @@ const Navbar = () => {
                     <a href="http://" target='_blank' className='text-neon-blue text-3xl hover:text-[#a7fdfd]'>{linkedin}</a>
                   </li>
                 </ul>
+              </div>
+              <div className='flex flex-row justify-center'>
+                <img className='h-12 w-12' src='Crown.png' />
+                <img className='h-12 w-12' src='Chestplate.png' />
+                <img className='h-12 w-12' src='Legs.png' />
+                <img className='h-12 w-12' src='Boots.png' />
               </div>
             </div>
             )}

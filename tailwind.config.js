@@ -37,8 +37,8 @@ export default {
       },
       keyframes: {
         'open-menu': {
-          '0%': { transform: 'scaleX(0)' },
-          '100%': { transform: 'scaleX(1)' },
+          '0%': { transform: 'scaleY(0)' },
+          '100%': { transform: 'scaleY(1)' },
         },
         'close-menu': {
           '0%': { transform: 'scaleX(1)' },
@@ -46,7 +46,7 @@ export default {
         },
       },
       animation: {
-        'open-menu': 'open-menu 0.5s ease-in-out forwards',
+        'open-menu': 'open-menu 0.8s ease-in-out forwards',
         'close-menu': 'close-menu 0.5s ease-in-out forwards',
       },
     },
