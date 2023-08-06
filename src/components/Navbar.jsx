@@ -35,7 +35,7 @@ const Navbar = () => {
             )}
           </button>
             {openDropDown && (
-              <div className='dropdown-menu origin-top animate-open-menu lg:hidden absolute -right-4 top-12 w-[100vw] h-[100vh] bg-nav-bg/60 rounded-lg'>
+              <div className='dropdown-menu origin-top animate-open-menu lg:hidden absolute -right-4 top-12 w-screen md:w-[50vw] h-[calc(100vh_-_56px)] md:h-[50vh] bg-nav-bg/90 rounded-lg'>
                 <div className='flex flex-auto sm:flex-1 p-8'>
                   <a href='#hero' className='text-white text-xl font-ysabeau font-semibold tracking-wider hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full'>Home</a>
                 </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
                   <a href='#hero' className='text-white text-xl font-ysabeau font-semibold hover:text-neon-purple text-md w-full text-center px-1.5 xs:px-3 sm:px-4 hover:bg-[#444444] rounded-full tracking-wider'>Contact</a>
                 </div>
               <div>
-                <ul className='md:hidden flex justify-evenly p-8'>
+                <ul className='md:hidden flex justify-evenly p-4'>
                   <li className='py-3 px-1'>
                     <a href="https://www.instagram.com/entangledcerebrum/" target='_' className='text-neon-blue text-3xl hover:text-[#a7fdfd]'>{insta}</a>
                   </li>
